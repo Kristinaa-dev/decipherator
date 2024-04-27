@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decipherator</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scipt.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Decipherator</h1>
+        <div class="input">
+            <textarea name="input" id="input" cols="30" rows="10" placeholder="Enter your text here"></textarea>
+        </div>
+        <div class="output">
+            <textarea name="output" id="output" cols="30" rows="10" placeholder="Deciphered text will appear here"></textarea>
+        </div>
+        <div class="choices">
+            <select>
+                <option value="0">Select a cipher</option>
+                <option value="1">Caesar Cipher</option>
+                <option value="2">ROT13</option>
+                <option value="3">Hex to Text</option>
+                <option value="4">Ascii to Text</option>
+                <option value="5">Base64</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="decipher">Decipher</button>
+            <button id="clear">Clear</button>
+        </div>  
+
+    </div>
+</body>
+</html>
+
